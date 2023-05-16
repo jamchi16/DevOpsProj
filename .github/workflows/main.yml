@@ -21,7 +21,7 @@ jobs:
         uses: hashicorp/setup-terraform@v1
 
       - name: Terraform Init
-        working-directory: Terraform-AWS-Services/elasticsearch/elasticsearch_configuration/
+        working-directory: C:/code/git/DevOpsProject
         run: |
           terraform init \
             -backend-config "bucket=terraform-states-monitoring-platform" \
